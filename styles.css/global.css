@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* colors */
+/* root*/
 :root {
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
@@ -13,28 +13,27 @@
     --shape-transparency: #ffffff8f;
     --text-color-primary: #313131;
     --text-color-secundary: #6C6C6C;
+
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 2rem/125% var(--font-family);
+    --text-md: normal 1rem/170% var(--font-family);
+    --text-sm: normal 0.8rem/170% var(--font-family);
+    --text: normal 1.5rem/150% var(--font-family);
+
 }
 
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+body {
+    font: var(--text);
 }
 
 .heading1 {
-    font-size: 2rem;
-    font-weight: 125%;
-    font-style: bold;
+    font: var(--text-lg);
 }
 
 .paragraph-md {
-    font-size: 1rem;
-    font-weight: 170%;
-    font-style: normal;
+    font: var(--text-md);
 }
 
 .paragraph-sm {
-    font-size: 0.8rem;
-    font-weight: 170%;
-    font-style: normal ;
+    font: var(--text-sm);
 }
