@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.3rem;
+    background-color: var(--surface-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-block: 0.5rem;
+    gap: 1.5rem;
+}
+
+nav ul li:last-child img {
+    width: 3rem;
+    height: 3rem;
+}

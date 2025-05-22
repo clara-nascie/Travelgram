@@ -24,9 +24,28 @@
 
 body {
     font: var(--text);
+    background-color: var(--background-color);
+    color: var(--text-color-secundary);
 }
 
-.heading1 {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    padding-inline: 2rem;
+    max-width: 100%; /*80rem de acordo com a aula */
+    margin-inline: auto;
+
+}
+
+h1 {
     font: var(--text-lg);
 }
 
