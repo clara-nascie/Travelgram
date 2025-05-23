@@ -4,6 +4,7 @@ footer {
     justify-content: space-between;
     gap: 1.5rem;
     align-items: center;
+    font: 1rem/150% var(--font-family);
 }
 
 footer span:nth-child(1) {
