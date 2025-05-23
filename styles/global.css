@@ -23,6 +23,7 @@
 }
 
 body {
+    font-family: "Poppins", sans-serif;
     font: var(--text);
     background-color: var(--background-color);
     color: var(--text-color-secundary);
@@ -42,11 +43,15 @@ a:hover {
     padding-inline: 2rem;
     max-width: 100%; /*80rem de acordo com a aula */
     margin-inline: auto;
-
 }
 
-h1 {
+.bg-surface-color {
+    color: var(--surface-color);
+}
+
+header {
     font: var(--text-lg);
+    color: var(--text-color-secundary);
 }
 
 .paragraph-md {
