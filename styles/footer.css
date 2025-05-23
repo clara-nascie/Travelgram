@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    padding-block: 1.5rem;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
